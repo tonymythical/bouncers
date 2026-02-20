@@ -29,6 +29,7 @@ class Bouncer {
         bn::fixed x_speed = BASE_SPEED;
         bn::fixed y_speed = BASE_SPEED;
 
+        // Timer to control flashing of the sprite
         int flash_timer = 0;
         int flash_frame = 30;
 
